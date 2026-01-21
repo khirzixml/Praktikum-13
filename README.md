@@ -22,7 +22,7 @@ tar -czf /backup/backup_home_$DATE.tar.gz /home/irham440 >> /backup/backup_home_
 10 * * * * /home/irham440/backup.sh
 
 # Backup tambahan ke flashdisk FAHAMI
-rsync -ah /home/irham440 /media/irham440/FAHAMI/Backup_home
+rsync -ah /home/Khirzi66 /media/khirzi66/FAHAMI/Backup_home
 
 # Monitoring backup dengan Cronitor
-cronitor exec Backup -- /home/irham440/backup.sh
+cronitor exec Backup -- /home/khirzi66/backup.sh
